@@ -1,6 +1,6 @@
 @import url('https://necolas.github.io/normalize.css/latest/normalize.css');
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lato&display=swap');
 
 :root {
   font: 16px / 1 sans-serif;
@@ -13,4 +13,42 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #dfe0df;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, footer{
+  background-color: #9C1203;
+  text-align: center;
+  padding: 1rem;
+  border: 10px dashed #9C5F03;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2rem;
+}
+
+p{
+  background-color: #033807;
+  text-align: center;
+  padding: 1rem;
+}
+
+.picture-time{
+  background-color: #00165E;
+  margin: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+button{
+  background-color: #E3A000;
+  border-radius: 50%;
+  height: 50px;
+  box-shadow: 5px 10px 8px black;
+  text-decoration: none;
 }

@@ -57,6 +57,7 @@ button{
   border-radius: 50%;
   height: 50px;
   box-shadow: 5px 10px 8px #4bc5bc;
+  text-decoration: none;
 }
 
 .picture-time{
