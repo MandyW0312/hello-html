@@ -1,3 +1,7 @@
+@import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Roboto&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -9,4 +13,54 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #f6f6f6;
+  color: #161d6f;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, footer {
+  background-color: #c7ffd8;
+  text-align: center;
+  padding: 1rem;
+  border: 10px dotted #b698de;
+  font-family: 'Boogaloo', sans-serif;
+  font-size: 2rem;
+}
+
+p{
+  background-color: #98ded9;
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+}
+section{
+  background-color: #98ded9;
+  padding: 1rem;
+  margin: 0;
+}
+
+ol, ul{
+  background-color: #de989d;
+}
+
+ul{
+  list-style-type: circle;
+}
+
+footer{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+button{
+  background-color: #98ded9;
+  border-radius: 50%;
+  height: 50px;
+  box-shadow: 5px 10px 8px #4bc5bc;
+}
+
+.picture-time{
+  background-color: #98c7de;
+  text-align: center;
+  margin: 2rem;
 }
