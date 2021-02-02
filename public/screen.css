@@ -63,5 +63,6 @@ button{
 .picture-time{
   background-color: #98c7de;
   text-align: center;
-  margin: 2rem;
+  margin: 2rem; 
+  padding: 2rem;
 }
