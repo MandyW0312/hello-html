@@ -18,7 +18,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, footer {
+h1,
+h2,
+h3,
+footer {
   background-color: #c7ffd8;
   text-align: center;
   padding: 1rem;
@@ -27,32 +30,66 @@ h1, h2, h3, footer {
   font-size: 2rem;
 }
 
-p{
+p {
   background-color: #98ded9;
   padding: 1rem;
   margin: 0;
   text-align: center;
 }
-section{
+div {
   background-color: #98ded9;
   padding: 1rem;
   margin: 0;
 }
 
-ol, ul{
+ol,
+ul {
   background-color: #de989d;
 }
 
-ul{
+ul {
   list-style-type: circle;
 }
 
-footer{
+.picture-time {
+  background-color: #98c7de;
+  text-align: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #98c7de;
+  text-align: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+section figcaption {
+  width: 300px;
+}
+
+.image {
+  border: 1px solid #de989d;
+  border-radius: 10px;
+}
+
+footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-button{
+button {
   background-color: #98ded9;
   border-radius: 50%;
   height: 75px;
@@ -60,9 +97,30 @@ button{
   text-decoration: none;
 }
 
-.picture-time{
-  background-color: #98c7de;
-  text-align: center;
-  margin: 2rem; 
-  padding: 2rem;
+@media (max-width: 1440px) {
+  .image {
+    max-width: 400px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .image {
+    max-width: 400px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 425px) {
+  .image {
+    max-width: 500px;
+    max-height: 400px;
+  }
 }

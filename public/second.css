@@ -18,37 +18,87 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3, footer{
-  background-color: #9C1203;
+h1,
+h2,
+h3,
+footer {
+  background-color: #9c1203;
   text-align: center;
   padding: 1rem;
-  border: 10px dashed #9C5F03;
+  border: 10px dashed #9c5f03;
   font-family: 'Cinzel Decorative', cursive;
   font-size: 2rem;
 }
 
-p{
+p {
   background-color: #033807;
   text-align: center;
   padding: 1rem;
 }
 
-.picture-time{
-  background-color: #00165E;
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #00165e;
   margin: 2rem;
   padding: 2rem;
   text-align: center;
 }
 
-footer{
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+section figcaption {
+  width: 200px;
+}
+
+.image {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-button{
-  background-color: #E3A000;
+button {
+  background-color: #e3a000;
   border-radius: 50%;
   height: 75px;
   box-shadow: 5px 10px 8px black;
   text-decoration: none;
+}
+
+@media (max-width: 1440px) {
+  .image {
+    max-width: 400px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .image {
+    max-width: 400px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 425px) {
+  .image {
+    max-width: 500px;
+    max-height: 400px;
+  }
 }
